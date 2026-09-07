@@ -52,22 +52,22 @@ The species column has a small number of unique values.
 There are three unique species, so a for loop can
 process and log each one.
 
-Selected measurement column: **bill_length_mm**
+Selected measurement column: **body_mass_g**
 
 Reason for choosing this measurement:
 
-Bill length varies across penguins.
+Body mass varies across penguins.
 There is no fixed cutoff, so we'll calculate the average
 and assign a classification depending on a threshold
 around the average value.
 
 ```text
-Sample bill_length_mm: 39.1
+Sample body_mass_g: 39.1
 Short threshold multiplier: 0.9
 Long threshold multiplier:  1.1
 Short threshold: 39.529736842105265
 Long threshold:  48.31412280701755
-First row bill_length_mm classification: SHORT
+First row body_mass_g classification: SHORT
 
 Max records to process: 10
 Stream wait seconds: 1

@@ -103,8 +103,8 @@ There are three unique species, so a for loop can
 process and log each one.
 """
 
-# CUSTOM: WHICH measurement to classify, and why this one.
-MEASUREMENT_COLUMN: Final[str] = "bill_length_mm"
+# CUSTOM: I chose to measure body mass because I wanted to see if the distribution appeared more normal for that.
+MEASUREMENT_COLUMN: Final[str] = "body_mass_g"
 
 # CUSTOM: Describe why we choose it.
 # Use a triple-quoted string (three double quotes) to allow multi-line text.
